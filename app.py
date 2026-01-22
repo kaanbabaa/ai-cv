@@ -53,7 +53,7 @@ cv_data = {
         "programming_languages": ["Java (Advanced)", "Python (AI/ML Focus)", "C++ (Embedded)", "SQL", "R (Statistical Data Analysis)", "JavaScript"],
         "ai_ml_knowledge": [
             "Deep Learning Architecture: CNNs (Conv2D, Pooling), Backpropagation, Optimizers (Adam/SGD)",
-            "Reinforcement Learning Logic: Understanding Agent-Environment interaction, Markov Decision Processes (MDP), and Delayed Rewards (Long-term Strategy vs. Short-term Penalty)", # <-- YENİ EKLENEN
+            "Reinforcement Learning Logic: Understanding Agent-Environment interaction, Markov Decision Processes (MDP), and Delayed Rewards (Long-term Strategy vs. Short-term Penalty)",
             "Unsupervised Strategy: K-Means Clustering (Optimizing 'k' via Elbow Method, Inertia & Silhouette Score)",
             "Supervised Logic: Multi-class Classification (Softmax) vs. Binary (Sigmoid), Decision Tree, Random Forest",
             "Math Foundation: Linear Algebra (Matrix Operations), Calculus (Gradients)"
