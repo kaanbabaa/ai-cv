@@ -34,7 +34,7 @@ cv_data = {
     "education": {
         "university": "Frankfurt University of Applied Sciences",
         "degree": "B.Sc. Computer Science (Informatik)",
-        "current_status": "3rd Year Student",
+        "current_status": "Final Year Student | Expected Graduation: Summer 2026",
         "gpa": "2.4 (German Grading Scale)",
         "key_coursework_grades": {
             "Introduction to Programming with C": "1.0",
