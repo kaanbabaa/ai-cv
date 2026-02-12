@@ -38,6 +38,7 @@ cv_data = {
         "gpa": "2.4 (German Grading Scale)",
         "key_coursework_grades": {
             "Introduction to Programming with C": "1.0",
+            "Object Oriented Programming with Java" : "1.3",
             "Computer Architecture (Assembly & Hardware-Software Interface)": "3.3",
             "Databases (SQL)": "2.3",
             "Probability and Statistics (Data Analysis with R)": "2.7",
@@ -45,7 +46,7 @@ cv_data = {
             "Real-time Systems": "1.7",
             "Artificial Intelligence": "2.3",
             "Software Engineering Analysis": "Current Focus: System Architecture",
-            "IoT Sensor Lab": "Project-Based"
+            "IoT Sensorik": "1.7"
         }
     },
     "technical_skills": {
