@@ -107,7 +107,7 @@ with st.sidebar:
     
     # Download CV PDF
     try:
-        with open("kaan_cv.pdf", "rb") as pdf_file:
+        with open("kaan_degirmenci_cv.pdf", "rb") as pdf_file:
             PDFbyte = pdf_file.read()
             st.download_button(
                 label="Download Original CV (PDF)",
