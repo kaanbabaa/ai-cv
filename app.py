@@ -390,6 +390,8 @@ with tab1:
             )
 
     if prompt_council := st.chat_input("Ask a complex question to the Council...", key="council_input"):
+        if chat_window is None:
+            chat_window = get_or_create_chat_window()
         with chat_window: 
             with st.chat_message("user"):
                 st.markdown(prompt_council)
