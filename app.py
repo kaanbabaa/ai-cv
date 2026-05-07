@@ -27,61 +27,80 @@ if "council_logs" not in st.session_state:
 cv_data = {
     "personal_info": {
         "name": "Kaan Degirmenci",
-        "role": "Computer Science Student & Future System Architect",
-        "contact": "kaandeg@gmail.com | https://www.linkedin.com/in/kaan-degirmenci-23a5a03a4/",
-        "summary": "Forward-thinking Computer Science student transitioning from a 'Coder' to a 'Solutions Architect'. . Skilled in bridging the gap between low-level hardware (Assembly/C) and high-level data architecture (SQL/AI)."
+        "role": "Computer Science Student | Future System Architect",
+        "contact": "kaandeg@gmail.com | LinkedIn: https://www.linkedin.com/in/kaan-degirmenci-23a5a03a4/ | GitHub: https://github.com/kaanbabaa",
+        "summary": "Forward-thinking Computer Science student evolving from a traditional coder into a system-oriented engineer. Strong at bridging low-level computing (C, C++, Assembly, Real-Time Systems, embedded/IoT) with high-level software and data architecture (Java OOP, SQL, AI/ML, Python). Known for a first-principles mindset in AI and an architectural approach to software design, focusing on scalability, correctness, and end-to-end ownership."
     },
     "education": {
         "university": "Frankfurt University of Applied Sciences",
-        "degree": "B.Sc. Computer Science (Informatik)",
-        "current_status": "Final Year Student | Expected Graduation: Summer 2026",
-        "gpa": "2.4 (German Grading Scale)",
+        "degree": "B.Sc. in Computer Science (Informatik)",
+        "current_status": "Final Year Student | Expected Graduation: Winter 2027",
+        "gpa": "2.3 (German grading scale)",
         "key_coursework_grades": {
             "Introduction to Programming with C": "1.0",
-            "Object Oriented Programming with Java" : "1.3",
-            "Computer Architecture (Assembly & Hardware-Software Interface)": "3.3",
+            "Object-Oriented Programming with Java": "1.3",
+            "Object-Oriented Programming with C++": "1.7",
+            "Analysis": "1.7",
+            "Real-Time Systems": "1.7",
             "Databases (SQL)": "2.3",
-            "Probability and Statistics (Data Analysis with R)": "2.7",
-            "Object Oriented Programming with C++": "1.7",
-            "Real-time Systems": "1.7",
             "Artificial Intelligence": "2.3",
-            "Software Engineering Analysis": "Current Focus: System Architecture",
-            "IoT Sensorik": "1.7"
+            "Discrete Mathematics": "2.3",
+            "Operating Systems": "2.3",
+            "Probability & Statistics (Data Analysis with R)": "2.7"
         }
     },
     "technical_skills": {
-        "core_philosophy": ["System Architecture", "First-Principles AI", "Object-Oriented Design"],
-        "programming_languages": ["Java (Advanced)", "Python (AI/ML Focus)", "C++ (Embedded)", "SQL", "R (Statistical Data Analysis)", "JavaScript"],
+        "core_philosophy": [
+            "System Architecture & End-to-End Design",
+            "Object-Oriented Design (OOP)",
+            "First-Principles AI & Engineering Logic"
+        ],
+        "programming_languages": [
+            "Java (Advanced, OOP, GUI, concurrency)",
+            "Python (AI/ML, data processing, RAG)",
+            "C++/C (OOP, Embedded systems, real-time logic)",
+            "SQL (Relational databases)",
+            "R (Statistical data analysis)",
+            "Assembly"
+        ],
         "ai_ml_knowledge": [
-            "Deep Learning Architecture: CNNs (Conv2D, Pooling), Backpropagation, Optimizers (Adam/SGD)",
-            "Reinforcement Learning Logic: Understanding Agent-Environment interaction, Markov Decision Processes (MDP), and Delayed Rewards (Long-term Strategy vs. Short-term Penalty)",
-            "Unsupervised Strategy: K-Means Clustering (Optimizing 'k' via Elbow Method, Inertia & Silhouette Score)",
-            "Supervised Logic: Multi-class Classification (Softmax) vs. Binary (Sigmoid), Decision Tree, Random Forest",
-            "Math Foundation: Linear Algebra (Matrix Operations), Calculus (Gradients)"
+            "Advanced Agentic Workflows & Autonomous Code-Auditing",
+            "LLM Cost Optimization (Token Digestion & JSON Summarization)",
+            "Structural Repository Analysis (Dependencies & Skeleton)",
+            "Deep Learning: CNN architectures, Conv2D & pooling layers, backpropagation",
+            "Optimization: Adam, SGD, gradient-based learning",
+            "Supervised/Unsupervised Learning: Binary/Multi-class classification, Random Forests, K-Means clustering",
+            "Reinforcement Learning: Agent-environment interaction, MDPs, delayed reward logic"
         ]
     },
     "projects": [
         {
+            "name": "AI-Based C++ Code Healer (Active R&D)",
+            "tech_stack": "C++, Python, Agentic Loop, Sandbox",
+            "details": "Developing an agentic system designed to autonomously fix memory leaks and modernize C++ code. Integrated JSON summarization for token digestion to optimize context windows and utilizing Sandbox logs to allow the model to iteratively improve its fixes based on real-time execution data."
+        },
+        {
+            "name": "AI-Powered Technical Interview Engine (Custom RAG)",
+            "tech_stack": "Python, Streamlit, ChromaDB, Groq, Pydantic, Sandbox Environment",
+            "details": "Automated CV & GitHub Profiling: Engineered an LLM-driven parser to convert PDFs into structured personas and analyzed GitHub code skeletons. Built custom semantic retrieval logic to map candidate tech-stacks to a VectorDB (Chroma). Integrated live sandbox evaluation to audit code in real-time, delivering a dashboard with token usage and cost tracking."
+        },
+        {
             "name": "Advanced Traffic Simulation Wrapper (SUMO)",
-            "tech_stack": "Java (OOP), GUI Framework (Swing/JavaFX), SUMO Engine",
-            "link": "https://github.com/kaanbabaa/SUMO",
-            "details": "Engineered a robust Java wrapper for the SUMO (Simulation of Urban MObility) engine using strict Object-Oriented principles. Developed a dynamic GUI to visualize real-time traffic data, implementing multi-threading to ensure the simulation loop ran asynchronously without freezing the user interface. Focused on parsing complex XML configuration files to control vehicle behaviors programmatically."
+            "tech_stack": "Java, Object-Oriented Design, GUI (Swing/JavaFX), SUMO Engine",
+            "details": "Engineered a robust Java wrapper around the SUMO traffic simulation engine using strict OOP principles. Designed a responsive GUI to visualize real-time traffic data and implemented multi-threading to decouple simulation logic from UI rendering."
+        },
+        {
+            "name": "Smart Trash Bin - IoT System",
+            "tech_stack": "C++, ESP8266, Firebase, Google Apps Script",
+            "details": "Designed an end-to-end IoT architecture connecting physical sensors to a cloud backend. Programmed microcontroller logic to process distance sensor data, implemented a software-based signal smoothing algorithm, and enabled WebSocket communication."
         },
         {
             "name": "Machine Learning & Computer Vision Fundamentals",
             "tech_stack": "Python, NumPy, Custom Neural Networks",
-            "details": "Developed scalable CNN architectures for Multi-class Classification (CIFAR-10 Vehicles, MNIST Digits). Distinguished by a 'Glass Box' approach: Applied deep theoretical knowledge of the underlying mathematics (Chain Rule for Backpropagation, Matrix Operations) to fine-tune 'Black Box' model parameters. utilized Kaggle datasets with rigorous Train/Test splitting to validate model generalization and mitigate overfitting."},
-        {
-            "name": "Smart Trash Bin (IoT System)",
-            "tech_stack": "C++, ESP8266, Firebase, Google Apps Script",
-            "details": "Designed an end-to-end IoT architecture connecting physical hardware to the cloud. Programmed an ESP8266 microcontroller to read distance data from an HC-SR04 sensor. Solved hardware limitations by implementing a software-side 'Signal Smoothing Algorithm' to filter out sensor noise/fluctuations. Established a WebSocket connection to Firebase for real-time status updates on a web dashboard."        },
-        {
-            "name": "AI Powered CV Assistant (RAG App)",
-            "tech_stack": "Python, Gemini API, Streamlit",
-            "details": "Developed a 'Chat with Data' application acting as a proof-of-concept for RAG (Retrieval Augmented Generation) systems. Implemented a Multi-Agent architecture ('Visionary' vs 'Auditor') to reduce AI hallucinations. Used Streamlit Session State for memory management and designed a modular prompt engineering structure to switch between 'Professional' and 'Creative' modes dynamically."
+            "details": "Built CNN architectures for multi-class classification. Applied a glass-box approach by manually reasoning about backpropagation, gradients, and matrix operations to validate generalization and mitigate overfitting."
         }
     ],
-    "internship_expectations": "Seeking a challenging Summer 2026 Internship that bridges the gap between Low-Level Engineering (Embedded/IoT) and High-Level Software Architecture (AI/Cloud). I am eager to move beyond simple task execution and contribute to scalable system designs, applying my 'T-Shaped' skills in Object-Oriented Design and Data Logic to solve real-world engineering problems."
+    "internship_expectations": "Seeking a Summer 2026 internship that connects low-level engineering (embedded systems, IoT, real-time logic) with high-level software architecture (AI, cloud, data-driven systems). Motivated to contribute beyond task execution by participating in architectural decisions, scalable system design, and real-world engineering problem solving."
 }
 
 cv_text = json.dumps(cv_data, indent=2)
