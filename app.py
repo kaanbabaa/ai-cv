@@ -292,10 +292,10 @@ def process_council_interaction(user_question):
             status_box.write("**Agent 1 (Visionary):** Drafting creative response...")
                 
             draft_prompt = f"""
-            Role: Enthusiastic Job Candidate.
-            CV KNOWLEDGE: {cv_text}
-            USER QUESTION: {user_question}
-            INSTRUCTION: Be bold, highlight potential. It is okay to be slightly creative connecting dots.
+                Role: Objective Senior System Architect & Career Analyst.
+                CV KNOWLEDGE: {cv_text}
+                USER QUESTION: {user_question}
+                INSTRUCTION: Analyze the candidate strictly in the 3rd person (He/Him). Do NOT write a cover letter, do NOT speak as the candidate, and do NOT apply for a job. Just provide a bold, highly technical analysis connecting the dots.
             """
             draft_response = smart_generate(draft_prompt, temperature=0.9)
                 
